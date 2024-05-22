@@ -3,7 +3,7 @@ import 'menu.dart';
 
 void main() {
   runApp(const MaterialApp(
-    title: 'Navigation Basics',
+    title: 'Книжный магазин Роги и Ники',
     home: FirstRoute(),
   ));
 }

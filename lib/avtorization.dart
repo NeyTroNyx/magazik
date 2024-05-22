@@ -20,22 +20,34 @@ class SecondRoute extends StatelessWidget {
                 children: [
                   Container(
 
-                    color: Color.fromARGB(255, 255, 255, 255),
+                    color: Color.fromARGB(0, 0, 0, 0),
                     alignment: Alignment.topLeft,
                     padding: EdgeInsets.all(15),
                     margin: EdgeInsets.only(top: 10),
                     child: TextFormField(
-                      decoration: InputDecoration(border: OutlineInputBorder()) ,),
+                      decoration: InputDecoration(border: OutlineInputBorder()),style: const TextStyle(
+                      fontSize: 20,
+                      color: Colors.white,
+                    ),),
                   ),
-                  Text ('Логин'),
+                  Text ('Логин',style: const TextStyle(
+                    fontSize: 20,
+                    color: Colors.white,
+                  ),),
                   Container(
-                    color: Color.fromARGB(255, 255, 255, 255),
+                    color: Color.fromARGB(0, 0, 0, 0),
                     alignment: Alignment.topLeft,
                     padding: EdgeInsets.all(15),
                     margin: EdgeInsets.only(top:10),
-                    child: TextFormField(decoration: InputDecoration(border: OutlineInputBorder()), obscureText: true ,),
+                    child: TextFormField(decoration: InputDecoration(border: OutlineInputBorder()),style: const TextStyle(
+                      fontSize: 20,
+                      color: Colors.white,
+                    ), obscureText: true ,),
                   ),
-                  Text('Пароль'),
+                  Text('Пароль',style: const TextStyle(
+                    fontSize: 20,
+                    color: Colors.white,
+                  ),),
                   Text (''),
                   ElevatedButton(
                       child: const Text('Вход'),

@@ -17,30 +17,48 @@ class ThirdRoute extends StatelessWidget {
             child: Column(
                 children: [
                   Container(
-                    color: Color.fromARGB(255, 255, 255, 255),
+                    color: Color.fromARGB(0, 255, 255, 255),
                     alignment: Alignment.topLeft,
                     padding: EdgeInsets.all(15),
                     margin: EdgeInsets.only(top: 10),
-                    child: TextFormField(decoration: InputDecoration(border: OutlineInputBorder())),
+                    child: TextFormField(decoration: InputDecoration(border: OutlineInputBorder()),style: const TextStyle(
+                      fontSize: 20,
+                      color: Colors.white,
+                    ),),
                   ),
-                  Text ('Введите логин'),
+                  Text ('Введите логин',style: const TextStyle(
+                    fontSize: 20,
+                    color: Colors.white,
+                  ),),
                   Container(
-                    color: Color.fromARGB(255, 255, 255, 255),
+                    color: Color.fromARGB(0, 255, 255, 255),
                     alignment: Alignment.topLeft,
                     padding: EdgeInsets.all(15),
                     margin: EdgeInsets.only(top:10),
-                    child: TextFormField(decoration: InputDecoration(border: OutlineInputBorder()), obscureText: true ,),
+                    child: TextFormField(decoration: InputDecoration(border: OutlineInputBorder()), obscureText: true ,style: const TextStyle(
+                      fontSize: 20,
+                      color: Colors.white,
+                    ),),
                   ),
-                  Text('Введите пароль'),
+                  Text('Введите пароль',style: const TextStyle(
+                    fontSize: 20,
+                    color: Colors.white,
+                  ),),
 
                   Container(
-                    color: Color.fromARGB(255, 255, 255, 255),
+                    color: Color.fromARGB(0, 255, 255, 255),
                     alignment: Alignment.topLeft,
                     padding: EdgeInsets.all(15),
                     margin: EdgeInsets.only(top:10),
-                    child: TextFormField(decoration: InputDecoration(border: OutlineInputBorder()), obscureText: true ,),
+                    child: TextFormField(decoration: InputDecoration(border: OutlineInputBorder()), obscureText: true ,style: const TextStyle(
+                      fontSize: 20,
+                      color: Colors.white,
+                    ),),
                   ),
-                  Text('Введите пароль еще раз'),
+                  Text('Введите пароль еще раз',style: const TextStyle(
+                    fontSize: 20,
+                    color: Colors.white,
+                  ),),
                   Text (''),
                   Text (''),
                   ElevatedButton(

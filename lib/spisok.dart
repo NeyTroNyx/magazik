@@ -39,7 +39,7 @@ class GridItem extends StatelessWidget {
           children: [
             Image.network(
               item.photo,
-              width: 150,
+              width: 100,
               fit: BoxFit.cover,
             ),
             const SizedBox(height: 20),
